@@ -1,0 +1,258 @@
+body {
+    width:1366px;
+    height: 1150px;
+}
+.head {
+    background-color:  #04e4a2;
+    width: 1366px;
+    height: 22px;
+}
+.head-menu {
+    background-color:  #e94643;
+    width: 1366px;
+    height: 100px;
+}
+.logo {
+    width:147px;
+    height:34px;
+    padding-top:23px;
+    padding-left:229px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 35px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    float: left;
+}
+.contacts {
+    width:106px;
+    height:12px;
+    margin-top:-22px;
+    padding-left:1165px;
+    font-family: Gotham;
+    color:  #f9fbe7;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    float: left;
+    font-size: 17px;
+}
+.line {
+    width: 106px;
+    border-bottom: 3px solid #fdd835;
+    margin-left: 1165px;
+    margin-bottom: 28px;
+    float:left;
+}
+.main-body{
+    position: absolute;
+    width: 1366px;
+    height: 583px;
+    background-color:  #ef5350;
+    margin-top: 100px;
+}
+.green-elements {
+    position: absolute;
+    width: 661px;
+    height: 745px;
+    margin-top: -78px;
+}
+.phone {
+    position: absolute;
+    width: 388px;
+    height: 814px;
+    padding-top: 64px;
+    padding-left: 191px;
+}
+.utp {
+    position: absolute;
+    width: 500px;
+    height: 59px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    padding-left: 706px;
+    padding-top: 190px;
+}
+.text-utp {
+    position: absolute;
+    width: 503px;
+    height: 61px;
+    font-family: Montserrat;
+    color:  #f9fbe8;
+    font-size: 17.4px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 200;
+    text-align: left;
+    padding-left: 707px;
+    padding-top: 296px;
+}
+.button-utp{
+    border: 0;
+    border-radius: 6px;
+    background-color:  #04e4a2;
+    width: 166px;
+    height: 54px;
+    font-family: Montserrat;
+    color:  #f9fbe7;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 401px;
+    margin-left: 1041px;
+}
+.button-utp:hover {
+    background-color: #04c78a;
+}
+.date-text {
+    position: absolute;
+    width: 79px;
+    height: 15px;
+    font-family: Montserrat;
+    color:  #ff8a80;
+    font-size: 17.8px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    padding-left: 732px;
+    padding-top: 161px;
+}
+.firstname {
+    position: absolute;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color:  #e3f2fd;
+    border-style: solid;
+    width: 246px;
+    height: 46px;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 24px;
+    margin-top: 196px;
+    margin-left: 707px;
+    margin-right: 21px;
+}
+.lastname {
+    position: absolute;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color:  #e3f2fd;
+    border-style: solid;
+    width: 246px;
+    height: 46px;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 24px;
+    margin-top: 196px;
+    margin-left: 999px;
+}
+.email {
+    position: absolute;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color:  #e3f2fd;
+    border-style: solid;
+    width: 246px;
+    height: 46px;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 24px;
+    margin-top: 259px;
+    margin-left: 707px;
+}
+.choise {
+    -webkit-appearance: none;
+    background: #ffffff url('image/arrow.png') no-repeat 230px;
+    position: absolute;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color:  #e3f2fd;
+    border-style: solid;
+    width: 274px;
+    height: 54px;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 24px;
+    margin-top: 259px;
+    margin-left: 999px;
+}
+.text-main {
+    position: absolute;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color:  #e3f2fd;
+    border-style: solid;
+    width: 536px;
+    height: 90px;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-left: 24px;
+    padding-top: 12px;
+    margin-top: 322px;
+    margin-left: 707px;
+}
+.send {
+    border: 0;
+    position: absolute;
+    border-radius: 8px;
+    background-color:  #ef5350;
+    width: 120px;
+    height: 45px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 19.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-top: 442px;
+    margin-left: 1151px;
+}
+.send:hover {
+    background-color:  #e94643;
+}
+.copywrite {
+    position: absolute;
+    width: 170px;
+    height: 15px;
+    margin-top: 528px;
+    margin-left: 191px;
+}
+.mail {
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    margin-top: 521px;
+    margin-left: 726px;
+}
+.contact-mail {
+    position: absolute;
+    font-family: Montserrat;
+    color:  #626262;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    transform: scaleY(1.0006);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-left: 764px;
+    margin-top: 523px;
+}
