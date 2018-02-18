@@ -3,90 +3,190 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Corporative</title>
-    <meta name="description" content=" ">
-    <meta name="author" content="Евгения Мас" />
-    <meta name="copyright" lang="ru" content="ООО Company" />
-
-    <!-- Фавикон -->
-
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
-    <link href="style.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-
+    <meta charset="utf-8">
+    <title>Шаблон сайта</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="styles.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/images.js" async></script>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <video loop muted autoplay id="bigVideo" poster="img/cover.jpg" >
-            <source src="video/futazh.mp4" type="video/mp4">
-        </video>
-        <div class="overlay"></div>
-    </div>
-
-    <div class="main-menu">
-        <a class="phone" href="tel:(408)_555_5555">
-            <i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
-            <span>(408) 555 5555</span>
+<div id="content">
+    <!-- Шапка -->
+    <div id="header">
+        <a href="#">
+            <div id="logo"></div>
+            <div id="brand"></div>
         </a>
-        <ul class="social-network social-circle">
-            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
     </div>
 
-    <div class="container-fluid services">
-        <h1 class="title-main">Aenean massa</h1>
-        <p class="text-main">Lorem ipsum dolor sit amet. Phasellus viverra nulla ut metus varius laoreet.
-            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-            Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Cum sociis natoque penatibus et magnis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-        <div class="clock">
-            <a><span class="badge hours"></span></a> :
-            <a><span class="badge min"></span></a> :
-            <a><span class="badge sec"></span></a>
-        </div>
-        <div class="button-main">
-            <button type="button" class="btn btn-default download-button">DOWNLOAD</button>
+    <div id="name-site">Premium Landing page template
+    </div>
+
+    <div id="telephone"><a href="tel:+1-800-123-456">CALL NOW! 1-800-123-456</a>
+    </div>
+
+    <div id="block-line-1"></div>
+    <!-- Конец шапки -->
+
+    <!-- Основной блок -->
+
+    <div id="unique-commercial-offer">
+
+        <div class="title-utp">
+            <h1>The perfect way to convert your traffic into sales</h1>
         </div>
 
-        <div class="row">
-            <div id="copyright" class="col-xs-12 col-sm-8 col-lg-12 col-md-8">
-                <p>Copyright &copy; 2017</p>
+        <div class="description-utp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+            <br><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+        </div>
+
+        <form action="." method="get" id="form1">
+            <button type="submit" class="button-1">Purchase now!</button>
+            OR
+            <button type="submit" class="button-2">Take a tour</button>
+        </form>
+
+        <!-- Карусель -->
+
+        <div id="block-for-slider">
+
+            <div id="viewport">
+                <ul id="slidewrapper">
+                    <li class="slide"><img src="images/Layer%2012.png" alt="1" class="slide-img"></li>
+                    <li class="slide"><img src="images/Layer-2.jpeg" alt="2" class="slide-img"></li>
+                    <li class="slide"><img src="images/Layer-3.jpeg" alt="3" class="slide-img"></li>
+                </ul>
+
+                <div id="prev-next-btns">
+                    <div id="prev-btn"><img src="images/Shape%2015.png" alt="4"></div>
+                    <div id="next-btn"><img src="images/Shape%2015%20(1).png" alt="5"></div>
+                </div>
+
             </div>
         </div>
+
+        <div class="decoration"><img src="images/Shadow%2001%20copy.png" alt="6"></div>
     </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/time.js"></script>
+    <div id="block-line-2"></div>
 
+    <!-- Преимущества -->
+
+    <div class="offers">
+
+        <div class="container">
+
+            <div class="box-1">
+                <h3 class="title-offers-1">Quick and easy</h3>
+                <p class="text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+
+            <div class="box-2">
+                <h3 class="title-offers-2">Less risky</h3>
+                <p class="text-2">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+            </div>
+
+            <div class="box-3">
+                <h3 class="title-offers-3">Optimized</h3>
+                <p class="text-3">Maecenas tempus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.</p>
+            </div>
+
+            <div id="block-line-3"></div>
+
+        </div>
+
+    </div>
+
+    <!-- О компании -->
+
+    <div class="info-company">
+
+        <h2>Check out the features</h2>
+        <p class="text-company">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            <br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+
+        <div class="blog">
+            <ul>
+                <li class="news-1"><a href="#" class="text-news-1">Lorem ipsum dolor sit amet</a></li>
+                <li class="new-2"><a href="#" class="text-news-2">Nulla consequat massa quis enim</a></li>
+                <li class="new-3"><a href="#" class="text-news-3">Nullam dictum felis eu pede</a></li>
+                <li class="new-4"><a href="#" class="text-news-3">Cum sois natoque penbus emais</a></li>
+            </ul>
+        </div>
+        <div id="block-line-4"></div>
+    </div>
+
+    <!-- Фотогалерея -->
+
+    <div class="screenshots">
+
+        <h2 class="screen">The screenshots</h2>
+
+        <div class="photo-box-1"></div>
+        <div class="photo-box-2"></div>
+        <div class="photo-box-3"></div>
+        <div class="photo-box-4"></div>
+
+        <div class="shadow-1"></div>
+        <div class="shadow-2"></div>
+        <div class="shadow-3"></div>
+        <div class="shadow-4"></div>
+
+        <div id="block-line-5"></div>
+
+    </div>
+
+    <!-- Слоган -->
+    <div class="slogan">See what our customers are saying...
+
+        <blockquote>
+            <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."</p>
+            <footer><cite> —  Mike Tyson, Microsoft</cite></footer>
+        </blockquote>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-1">
+
+        <div class="payment">
+            <h4 class="pay-title">Payment method</h4>
+            <p class="pay-description">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+            <div class="mastercard"></div>
+            <div class="visa"></div>
+            <div class="paypal"></div>
+        </div>
+
+        <div class="contacts">
+            <h4 class="contacts-title">Get in touch</h4>
+            <p class="contacts-description">123 Main street#6
+                <br>San Francisco, CA, 94101
+                <br>Phone (866) 123-0000 ext#1
+                <br>FAX (866) 123-0000
+                <br>webdsign@gmail.com
+            </p>
+
+        </div>
+
+        <div class="about">
+            <h4 class="about-title">Design details</h4>
+            <p class="about-description">Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Sed aliquam.</p>
+        </div>
+
+        <div class="footer-logo"></div>
+    </div>
+
+    <div class="footer-2">
+        <p class="copyright">Copyright 2011 Target. All rights reserved. Design by Shegy</p>
+        <div class="icons"></div>
+    </div>
+</footer>
 </body>
-
-
 </html>
