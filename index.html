@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap -->
@@ -11,7 +11,12 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crimson+Text|Faustina|Marck+Script|Roboto" rel="stylesheet">
+    <!-- Languange -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faustina" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <title>Tattoo Studio</title>
 
@@ -20,10 +25,10 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container main">
         <nav class="navbar">
             <div class="container header">
-                <a class="telephoneNumber" href="tel:+7 800 2341 000">Tel: +7 800 2341 000</a>
+                <a class="telephoneNumber" href="tel:+7_800_2341_000">Tel: +7 800 2341 000</a>
                 <a class="navbar-brand" href="#">Tattoo STUDIO</a>
                 <div class="social-groups">
                     <a class="btn btn-default logo-social" href="#"><i class="fa fa-facebook-square"></i></a>
@@ -95,16 +100,20 @@
             <div class="container" id="aboutCompany">
             <h1 class="main-title">Welcome to Tattoo Studio!</h1>
             <div class="main-text">
-                <div class="infoCompany" id="textWelcome">
-                        <article>Lorem ipsum dolor sit amet, consectetuer elit. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Donec imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-                            <br><br><br>
+                <div class="infoCompany article" id="textWelcome">
+                        <p class="text-company">Lorem ipsum dolor sit amet, consectetuer elit. Quisque rutrum.
+                            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                            Nam eget dui. Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes.
+                            Donec imperdiet a, venenatis vitae, justo.
+                        </p>
                 <address>
                     <strong>Tatoo Studio, Inc.</strong><br>
                     795 Folsom Ave, Suite 600, San Francisco<br>
-                    <a href="tel:+7 800 2341 000">Tel: +7 800 2341 000</a><br>
+                    <a href="tel:+7_800_2341_000">Tel: +7 800 2341 000</a><br>
                     <a href="mailto:#">ts@gmail.com</a>
                     </address>
-                        </article>
+
                 </div>
                 </div>
             </div>
@@ -175,14 +184,30 @@
                 Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
                 Phasellus viverra nulla ut metus varius laoreet. </p>
             <div class="gallery-photo">
-                <a data-fancybox="gallery" href="img/gallery-01-1.jpg"><img src="img/gallery-01.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-02-1.jpg"><img src="img/gallery-02.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-03-1.jpg"><img src="img/gallery-03.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-04-1.jpg"><img src="img/gallery-04.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-05-1.jpg"><img src="img/gallery-05.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-06-1.jpg"><img src="img/gallery-06.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-07-1.jpg"><img src="img/gallery-07.jpg" class="img-thumbnail w-25 float-left"></a>
-                <a data-fancybox="gallery" href="img/gallery-08-1.jpg"><img src="img/gallery-08.jpg" class="img-thumbnail w-25 float-left"></a>
+                <a data-fancybox="gallery" href="img/gallery-01-1.jpg">
+                    <img src="img/gallery-01.jpg" class="img-thumbnail w-25 float-left" alt="image-1">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-02-1.jpg">
+                    <img src="img/gallery-02.jpg" class="img-thumbnail w-25 float-left" alt="image-2">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-03-1.jpg">
+                    <img src="img/gallery-03.jpg" class="img-thumbnail w-25 float-left" alt="image-3">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-04-1.jpg">
+                    <img src="img/gallery-04.jpg" class="img-thumbnail w-25 float-left" alt="image-4">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-05-1.jpg">
+                    <img src="img/gallery-05.jpg" class="img-thumbnail w-25 float-left" alt="image-5">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-06-1.jpg">
+                    <img src="img/gallery-06.jpg" class="img-thumbnail w-25 float-left" alt="image-6">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-07-1.jpg">
+                    <img src="img/gallery-07.jpg" class="img-thumbnail w-25 float-left" alt="image-6">
+                </a>
+                <a data-fancybox="gallery" href="img/gallery-08-1.jpg">
+                    <img src="img/gallery-08.jpg" class="img-thumbnail w-25 float-left" alt="image-7">
+                </a>
             </div>
             </div>
         </div>
@@ -194,19 +219,19 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 blogs-block" data-aos="fade-right">
                         <a href="#">
-                            <img class="card-img-top" src="img/blog-1.jpg">
+                            <img class="card-img-top" src="img/blog-1.jpg" alt="image-1">
                         <p class="blog-text">Vivamus elementum semper nisisit amet elementum semper</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 blogs-block" data-aos="fade-up">
                         <a href="#">
-                        <img class="card-img-top" src="img/blog-1.jpg">
+                        <img class="card-img-top" src="img/blog-1.jpg" alt="image-2">
                         <p class="blog-text">Vivamus elementum semper nisisit amet elementum semper</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 blogs-block" data-aos="fade-left">
                         <a href="#">
-                        <img class="card-img-top" src="img/blog-1.jpg">
+                        <img class="card-img-top" src="img/blog-1.jpg" alt="image-3">
                         <p class="blog-text">Vivamus elementum semper nisisit amet elementum semper</p>
                         </a>
                     </div>
@@ -226,12 +251,14 @@
                 </p>
             </div>
                 <div class="map-blog">
-                    <a data-fancybox="map" href="img/map.png"><img src="img/map-01.png" class="img-thumbnail w-100"></a>
+                    <a data-fancybox="map" href="img/map.png">
+                        <img src="img/map-01.png" class="img-thumbnail w-100" alt="image-1">
+                    </a>
                 </div>
         </div>
         </div>
         <div class="deg-line6">
-            <ul class="navbar mx-auto menu-company-footer">
+            <ul class="navbar mx-auto menu-company-footer col-12 col-lg-8">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#aboutCompany">About us</a></li>
                 <li class="nav-item"><a class="nav-link" href="#oursArtists">Artists</a></li>
@@ -243,20 +270,16 @@
         </div>
     </div>
 
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
     <!-- JS -->
     <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
-
-    <script type="text/javascript" defer>
+    <script>
       $("[data-fancybox]").fancybox({
         // Options will go here
       });
     </script>
-
 </body>
 </html>
