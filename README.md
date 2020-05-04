@@ -1,1 +1,1 @@
-# page-sign-up
+# page-register
