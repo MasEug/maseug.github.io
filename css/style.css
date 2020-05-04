@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  height: 100%;
+}
+
+.wrap .header {
+  background-color: #fff;
+}
+
+.wrap .header__box {
+  padding: 7px 0;
+}
+
+.wrap .header__brand-company {
+  padding-top: 4px;
+  color: blueviolet;
+  margin-right: 20px;
+  float: left;
+}
+
+.wrap .header__btn-navbar {
+  cursor: pointer;
+  font-size: 17px;
+  border: 0;
+  background-color: #fff;
+  padding: 0 10.5px;
+}
+
+.wrap .header__btn-navbar:focus {
+  outline: none;
+}
+
+.wrap .header__brand {
+  vertical-align: middle;
+}
+
+.wrap .header__brand-icons {
+  padding-right: 4px;
+  color: blueviolet;
+}
+
+.wrap .header__menu {
+  display: flex;
+}
+
+.wrap .header__menu li {
+  list-style: none;
+}
+
+.wrap .header__menu-link {
+  font-size: 14px;
+  color: grey;
+  transition: all .2s ease-in-out;
+}
+
+.wrap .header__menu-link:hover {
+  color: blueviolet;
+}
+
+.wrap .header__form-exit .btn-exit {
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  color: blueviolet;
+  font-size: 14px;
+}
+
+.wrap .header__form-exit .btn-exit:focus {
+  outline: none;
+}
+
+.wrap .main__title {
+  font-size: 23px;
+  padding-top: 62px;
+  letter-spacing: 0;
+  word-spacing: 0.2px;
+}
+
+.wrap .main__block-h2 {
+  padding-top: 59px;
+  font-size: 17px;
+}
+
+.wrap .main__social {
+  padding-top: 32px;
+  margin-left: -16px;
+}
+
+.wrap .main__social-button {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  margin-left: 16px;
+  color: gray;
+  background-color: #eeeeee;
+  transition: all .5s ease-in-out;
+}
+
+.wrap .main__social-button:hover {
+  background-color: darkgray;
+  color: #eeeeee;
+}
+
+.wrap .main__additional-login {
+  padding-top: 31px;
+}
+
+.wrap .main__form-login .left {
+  margin-left: -19px;
+}
+
+.wrap .main__form-login .inputBox {
+  position: relative;
+  margin-left: 19px;
+  margin-top: 30px;
+  background-color: #eeeeee;
+  width: 272px;
+  height: 56px;
+  border-radius: 3px;
+  padding-left: 14px;
+}
+
+.wrap .main__form-login .inputBox:focus {
+  height: 56px;
+}
+
+.wrap .main__form-login .inputBox .inputText {
+  position: absolute;
+  font-size: 13px;
+  line-height: 76px;
+  transition: .6s;
+}
+
+.wrap .main__form-login .inputBox .input {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.wrap .main__form-login .inputBox.focus .inputText {
+  transform: translateY(-28px);
+  font-size: 15px;
+  opacity: 1;
+  color: #b6b4a1;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+textarea {
+  height: 80px !important;
+}
+
+textarea:focus {
+  content: "";
+  width: 272px;
+  border-radius: 3px;
+}
+
+.fa-check {
+  position: absolute;
+  padding-left: 226px;
+  margin-top: 28px;
+  color: #b6b4a1;
+}
+
+@media (max-width: 767px) {
+  .wrap .header__menu {
+    flex-direction: column;
+  }
+  .wrap .header__menu li {
+    padding: 12px 0;
+  }
+}
